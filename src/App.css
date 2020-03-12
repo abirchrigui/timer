@@ -1,38 +1,51 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Ubuntu', sans-serif;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.fullcontainer{
+  width: 300px;
+  height: 180px;
+  border: 4px solid red;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(bebe.jpg);
+  background-repeat: no-repeat;
+  background-size: 510px;
+  height: 320px
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.time-container{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  
 }
 
-.App-link {
-  color: #61dafb;
+.timermodel{
+  font-size: 40px;
+ 
+  color: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.time{
+  font-size: 10px;
+  color: grey;
+  margin-left: 10px;
+}
+
+.btn{
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 5px;
+  background-color: lightcoral 2px solid;
+  justify-content: space-between;
+  margin-left: 49px;
+}
+.timeraff{
+  margin-left: 702px;
 }
